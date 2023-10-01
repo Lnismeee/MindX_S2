@@ -1,0 +1,11 @@
+.header-center{
+    flex-grow: 8;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;       
+}
+.h-c-title:hover{
+    color: #f25b61;
+    cursor: pointer;
+}
