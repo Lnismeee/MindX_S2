@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "../../components/Slider";
 import "./styles.css";
-import Header from "../theme/Header";
+import Header from "../theme/Header/Header";
 import Footer from "../theme/Footer";
 const Home = () => {
     return (
