@@ -1,24 +1,90 @@
 [
     {
-        "name":"Skillofun Hammer Peg",
+        "name": "Skillofun Hammer Peg",
         "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-c6c0a336a0e04deba5248c8846a3e1ef.jpg?v=1694681197620",
         "img_2": "",
         "discount": "-81%",
         "cost": 1400000,
-        "old_cost":7500000,
-        "type":"Toys",
-        "id":378464349,
-        "barcode":606089968
+        "old_cost": 7500000,
+        "type": "Toys",
+        "id": 378464349,
+        "barcode": 606089968
     },
     {
-        "name":"Skillofun Abacus Junior",
+        "name": "Skillofun Abacus Junior",
         "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-245f57eddcde42ed9e97ed24e115d921.jpg?v=1694681195557",
         "img_2": "",
         "discount": "-73%",
         "cost": 1600000,
-        "old_cost":6000000,
-        "type":"Toys",
-        "id":778476731,
-        "barcode":805559827
+        "old_cost": 6000000,
+        "type": "Toys",
+        "id": 778476731,
+        "barcode": 805559827
+    },
+    {
+        "name": "Skating Adjustable Helmet",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-0a0fde285dd94454980816865357dd2a.jpg?v=1694681170033",
+        "img_2": "",
+        "discount": "-79%",
+        "cost": 1050000,
+        "old_cost": 5000000,
+        "type": "Jacket",
+        "id": 792127314,
+        "barcode": 968545070
+    },
+    {
+        "name": "SIM Light Weight Clogs for Kids",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-b87888108ae74b9c85373f043e4588d3.jpg?v=1694681125627",
+        "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-17f1750d61ad4337ae1b83b6e6dac58f.jpg?v=1694681125627",
+        "discount": "-87%",
+        "cost": 1050000,
+        "old_cost": 8000000,
+        "type": "Shoes",
+        "id": 627523365,
+        "barcode": 339431104
+    },
+    {
+        "name": "Skillofun Hammer Peg",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-c6c0a336a0e04deba5248c8846a3e1ef.jpg?v=1694681197620",
+        "img_2": "",
+        "discount": "-81%",
+        "cost": 1400000,
+        "old_cost": 7500000,
+        "type": "Toys",
+        "id": 378464349,
+        "barcode": 606089968
+    },
+    {
+        "name": "Shake & Spin Lion",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-2244d06074a4401bad62733d72e9ce02.jpg?v=1694681123567",
+        "img_2": "",
+        "discount": "-83%",
+        "cost": 750000,
+        "old_cost": 4500000,
+        "type": "Toys",
+        "id": 738215761,
+        "barcode": 731486563
+    },
+    {
+        "name": "Sensory Sweet Peas",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-deedfb88badd43129ce808b89b283d5e.jpg?v=1694681099547",
+        "img_2": "",
+        "discount": "-87%",
+        "cost": 450000,
+        "old_cost": 3500000,
+        "type": "Clothes",
+        "id": 751884356,
+        "barcode": 268535154
+    },
+    {
+        "name": "Sensory Activity Apple",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-91d4fe69516c40329a0bd080b9bd1e41.jpg?v=1694681095827",
+        "img_2": "",
+        "discount": "-76%",
+        "cost": 1650000,
+        "old_cost": 7000000,
+        "type": "Clothes",
+        "id": 576943639,
+        "barcode": 506079836
     }
 ]
