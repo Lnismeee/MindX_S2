@@ -3,6 +3,8 @@ import Slider from "../../components/Slider";
 import "./styles.css";
 import Header from "../theme/Header/Header";
 import Footer from "../theme/Footer";
+import Card from "../../Components/Card/Card"
+import data from "../../Data/data.json"
 const Home = () => {
     return (
         <>
