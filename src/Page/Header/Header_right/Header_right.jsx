@@ -28,7 +28,7 @@ const Header_right = () => {
       <i class="fa-solid fa-bars"></i>
       <i class="fa-regular fa-user"></i>
       <i class="fa-regular fa-heart"></i>
-      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-solid fa-bag-shopping"></i>
     </div>
   );
 };

@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Skillofun Hammer Peg",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-c6c0a336a0e04deba5248c8846a3e1ef.jpg?v=1694681197620",
+        "img_2": "",
+        "discount": "-81%",
+        "cost": 1400000,
+        "old_cost":7500000,
+        "type":"Toys",
+        "id":378464349,
+        "barcode":606089968
+    },
+    {
+        "name":"Skillofun Abacus Junior",
+        "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-245f57eddcde42ed9e97ed24e115d921.jpg?v=1694681195557",
+        "img_2": "",
+        "discount": "-73%",
+        "cost": 1600000,
+        "old_cost":6000000,
+        "type":"Toys",
+        "id":778476731,
+        "barcode":805559827
+    }
+]
