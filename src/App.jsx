@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./page/Home";
+import Home from "./page/Home/index";
 import ProductList from "./page/ProductList";
 import News from "./page/News";
 import Contact from "./page/Contact";

@@ -1,0 +1,44 @@
+{
+    "left5": [
+        {
+            "id": 1,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon1.png?1695187373377",
+            "name": "Quần áo sơ sinh"
+        },
+        {
+            "id": 2,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon2.png?1695187373377",
+            "name": "Thời trang bé gái"
+        },
+        {
+            "id": 3,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon3.png?1695187373377",
+            "name": "Thời trang bé trai"
+        },
+        {
+            "id": 4,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon4.png?1695187373377",
+            "name": "Giày & phụ kiện"
+        },
+        {
+            "id": 5,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon5.png?1695187373377",
+            "name": "Sản phẩm tắm & vệ sinh"
+        },
+        {
+            "id": 6,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon6.png?1695187373377",
+            "name": "Đồ chơi & học tập"
+        },
+        {
+            "id": 7,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon7.png?1695187373377",
+            "name": "Quần áo sơ sinh"
+        },
+        {
+            "id": 8,
+            "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon8.png?1695187373377",
+            "name": "Sức khoẻ gia đình"
+        }
+    ]
+}
