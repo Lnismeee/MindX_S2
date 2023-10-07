@@ -1,0 +1,66 @@
+{
+    "girl": [
+        {
+            "id": 1,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_1.png?1695187373377",
+            "name": "0-3 tháng tuổi"
+        },
+        {
+            "id": 2,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_2.png?1695187373377",
+            "name": "3-6 tháng tuổi"
+        },
+        {
+            "id": 3,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_3.png?1695187373377",
+            "name": "6-9 tháng tuổi"
+        },
+        {
+            "id": 4,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_4.png?1695187373377",
+            "name": "9-12 tháng tuổi"
+        },
+        {
+            "id": 5,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_5.png?1695187373377",
+            "name": "12-18 tháng tuổi"
+        },
+        {
+            "id": 6,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_6.png?1695187373377",
+            "name": "18-24 tháng tuổi"
+        }
+    ],
+    "boy": [
+        {
+            "id": 1,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_1.png?1695187373377",
+            "name": "0-3 tháng tuổi"
+        },
+        {
+            "id": 2,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_2.png?1695187373377",
+            "name": "3-6 tháng tuổi"
+        },
+        {
+            "id": 3,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_3.png?1695187373377",
+            "name": "6-9 tháng tuổi"
+        },
+        {
+            "id": 4,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_4.png?1695187373377",
+            "name": "9-12 tháng tuổi"
+        },
+        {
+            "id": 5,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_5.png?1695187373377",
+            "name": "12-18 tháng tuổi"
+        },
+        {
+            "id": 6,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_6.png?1695187373377",
+            "name": "18-24 tháng tuổi"
+        }
+    ]
+}
