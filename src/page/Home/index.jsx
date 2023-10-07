@@ -8,7 +8,6 @@ import data from "../../Data/data.json"
 const Home = () => {
     return (
         <>
-            <Header></Header>
             <main>
                 <div className="container">
                     <div className="left">

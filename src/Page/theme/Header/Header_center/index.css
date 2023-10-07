@@ -9,3 +9,7 @@
     color: #f25b61;
     cursor: pointer;
 }
+.h-c-title:hover{
+    color: black;
+    text-decoration: none;
+}

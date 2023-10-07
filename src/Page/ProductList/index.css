@@ -1,0 +1,10 @@
+.product_list{
+    display: flex;
+    flex-direction: row;
+}
+.filter{
+    flex:1;
+}
+.list{
+    flex: 4;
+}
