@@ -1,13 +1,14 @@
-import React from "react";
-import data from "../../Data/data.json";
+import React, { useState } from "react";
+import data1 from "../../Data/data.json";
 import "./index.css";
 import Filter from "./Filter/Filter";
 import List from "./List/List";
 const ProductList = () => {
+  const [data, setData] = useState(data1);
   return (
     <div className="product_list">
-      <Filter />
-      <List />
+      <Filter data={data} setData={setData} />
+      <List data={data} setData={setData} />
     </div>
   );
 };
