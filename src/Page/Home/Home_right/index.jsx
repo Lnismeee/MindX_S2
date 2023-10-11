@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import "./styles.css";
 import { girl } from "./listBaby.json";
 import { boy } from "./listBaby.json";
@@ -29,13 +30,13 @@ const Home_right = () => {
                     </div>
                 </div>
                 <div className="right__second">
-                    <ul class="r-s-list">
-                        <li class="r-s-card">
-                            <div class="r-s-card__icon">
-                                <i class="fa-solid fa-truck-fast"></i>
+                    <ul className="r-s-list">
+                        <li className="r-s-card">
+                            <div className="r-s-card__icon">
+                                <i className="fa-solid fa-truck-fast"></i>
                             </div>
-                            <div class="r-s-desc">
-                                <span class="r-s-span__heading">
+                            <div className="r-s-desc">
+                                <span className="r-s-span__heading">
                                     Free ship & Hoàn trả
                                 </span>
                                 <span>
@@ -45,12 +46,12 @@ const Home_right = () => {
                                 </span>
                             </div>
                         </li>
-                        <li class="r-s-card">
-                            <div class="r-s-card__icon">
-                                <i class="fa-solid fa-coins"></i>
+                        <li className="r-s-card">
+                            <div className="r-s-card__icon">
+                                <i className="fa-solid fa-coins"></i>
                             </div>
-                            <div class="r-s-desc">
-                                <span class="r-s-span__heading">
+                            <div className="r-s-desc">
+                                <span className="r-s-span__heading">
                                     Hoàn 200% sản phẩm kém chất lượng
                                 </span>
                                 <span>
@@ -61,12 +62,12 @@ const Home_right = () => {
                             </div>
                         </li>
 
-                        <li class="r-s-card">
-                            <div class="r-s-card__icon">
-                                <i class="fa-solid fa-phone"></i>
+                        <li className="r-s-card">
+                            <div className="r-s-card__icon">
+                                <i className="fa-solid fa-phone"></i>
                             </div>
-                            <div class="r-s-desc">
-                                <span class="r-s-span__heading">
+                            <div className="r-s-desc">
+                                <span className="r-s-span__heading">
                                     Hotline: 1900.63.60.99
                                 </span>
                                 <span>

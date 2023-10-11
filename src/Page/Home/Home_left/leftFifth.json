@@ -1,5 +1,5 @@
 {
-    "left5": [
+    "left1": [
         {
             "id": 1,
             "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon1.png?1695187373377",
@@ -39,6 +39,42 @@
             "id": 8,
             "img": "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon8.png?1695187373377",
             "name": "Sức khoẻ gia đình"
+        }
+    ],
+
+    "news": [
+        {
+            "name": "Shake & Spin Lion",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-2244d06074a4401bad62733d72e9ce02.jpg?v=1694681123567",
+            "img_2": "",
+            "discount": "-83%",
+            "cost": 750000,
+            "old_cost": 4500000,
+            "type": "Toys",
+            "id": 738215761,
+            "barcode": 731486563
+        },
+        {
+            "name": "Sensory Sweet Peas",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-deedfb88badd43129ce808b89b283d5e.jpg?v=1694681099547",
+            "img_2": "",
+            "discount": "-87%",
+            "cost": 450000,
+            "old_cost": 3500000,
+            "type": "Clothes",
+            "id": 751884356,
+            "barcode": 268535154
+        },
+        {
+            "name": "Sensory Activity Apple",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-91d4fe69516c40329a0bd080b9bd1e41.jpg?v=1694681095827",
+            "img_2": "",
+            "discount": "-76%",
+            "cost": 1650000,
+            "old_cost": 7000000,
+            "type": "Clothes",
+            "id": 576943639,
+            "barcode": 506079836
         }
     ]
 }
