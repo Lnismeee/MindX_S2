@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import "./styles.css";
 import { girl } from "./listBaby.json";
 import { boy } from "./listBaby.json";
+import { hot } from "./listBaby.json";
+import Card from "../../../components/Card/Card";
 const Home_right = () => {
     return (
         <>
@@ -97,6 +99,14 @@ const Home_right = () => {
                 </div>
                 <div className="r-trend">
                     <h2>#Hot#Trend#Xuhuong</h2>
+                    <ul className="r-t-list">
+                        <Card data={hot[1]} />
+                        <Card data={hot[1]} />
+
+                        <Card data={hot[1]} />
+
+                        <Card data={hot[1]} />
+                    </ul>
                 </div>
                 <div className="r-baby">
                     <ul className="baby__list">

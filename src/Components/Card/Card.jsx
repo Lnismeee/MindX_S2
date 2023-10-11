@@ -13,7 +13,7 @@ const Card = (prop) => {
                 <i class="icon_item item_hidden fa-solid fa-cart-shopping"></i>
             </div>
             <div className="card_img">
-                <img src={img_1} alt="" />
+                <img src={img_1} alt={name} />
             </div>
             <div className="info">
                 <h2>{name}</h2>
