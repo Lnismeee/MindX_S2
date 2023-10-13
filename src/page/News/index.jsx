@@ -1,7 +1,7 @@
 import React from 'react';
-import './index.css'; // Import the CSS file
+import './board.css'; // Import the CSS file
 
-const Board = () => {
+const News = () => {
   return (
     <div className="grid-container">
       <div className="grid-item">
@@ -52,4 +52,4 @@ const Board = () => {
   );
 };
 
-export default Board;
+export default News;

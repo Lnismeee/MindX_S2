@@ -1,8 +1,8 @@
 import "./App.css";
 import Home from "./page/Home";
 import ProductList from "./page/ProductList";
-import News from "./page/News";
-import Contact from "./page/Contact";
+// import News from "./page/News";
+// import Contact from "./page/Contact";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
