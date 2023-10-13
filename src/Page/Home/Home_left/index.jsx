@@ -1,53 +1,13 @@
 import React from "react";
 import "./styles.css";
 import Card from "../../../components/Card/Card";
-import data from "../../../Data/data.json";
 import Button from "../../../components/Button/index";
+import { news } from "./leftFifth.json";
+import { left1 } from "./leftFifth.json";
+import data from "../../../Data/data.json";
 import { useEffect, useState } from "react";
 
 const Home_left = () => {
-    const left1 = [
-        {
-            id: 1,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon1.png?1695187373377",
-            name: "Quần áo sơ sinh",
-        },
-        {
-            id: 2,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon2.png?1695187373377",
-            name: "Thời trang bé gái",
-        },
-        {
-            id: 3,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon3.png?1695187373377",
-            name: "Thời trang bé trai",
-        },
-        {
-            id: 4,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon4.png?1695187373377",
-            name: "Giày & phụ kiện",
-        },
-        {
-            id: 5,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon5.png?1695187373377",
-            name: "Sản phẩm tắm & vệ sinh",
-        },
-        {
-            id: 6,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon6.png?1695187373377",
-            name: "Đồ chơi & học tập",
-        },
-        {
-            id: 7,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon7.png?1695187373377",
-            name: "Quần áo sơ sinh",
-        },
-        {
-            id: 8,
-            img: "https://bizweb.dktcdn.net/thumb/thumb/100/488/521/themes/913255/assets/home_sidebar_category_icon8.png?1695187373377",
-            name: "Sức khoẻ gia đình",
-        },
-    ];
     const [a, setA] = useState(0);
     let i = "Bạn cần tư vấn?   xNhập địa chỉ email của bạn ...z";
     const [content, setContent] = useState("");
@@ -141,8 +101,8 @@ const Home_left = () => {
                 <div className="left__fifth">
                     <h2 className="third__heading">Sản phẩm mới</h2>
                     <ul className="fifth__list">
-                        {data.map((item) => (
-                            <li className="fifth__card" key={data.id}>
+                        {news.map((item) => (
+                            <li className="fifth__card" key={news.id}>
                                 <img
                                     src={item.img_1}
                                     alt={item.name}
@@ -159,13 +119,12 @@ const Home_left = () => {
                                         <span>({item.discount})</span>
                                     </div>
                                     <div className="fifth__star">
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
                                     </div>
-                                    {/* <Button></Button> */}
                                 </div>
                             </li>
                         ))}

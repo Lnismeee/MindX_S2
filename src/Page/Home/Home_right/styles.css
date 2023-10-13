@@ -1,24 +1,31 @@
 .right {
     margin-left: 50px;
 }
+.right__second {
+    display: flex;
+}
 .r-s-list {
     display: flex;
+    gap: 20px;
 }
 .r-s-card {
     margin-top: 50px;
     display: flex;
-    width: 350px;
-    padding: 30px;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    padding: 20px;
+    background-image: url("https://bizweb.dktcdn.net/100/488/521/themes/913255/assets/home_main_policy_item_background_2.jpg?1695187373377");
     border-radius: 20px;
+    object-fit: contain;
 }
 .r-s-card__icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    min-width: 80px;
+    height: 80px;
+    padding: 10px;
     background-color: green;
     border-radius: 100%;
     font-size: 3rem;

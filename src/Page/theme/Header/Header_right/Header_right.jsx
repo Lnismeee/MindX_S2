@@ -4,7 +4,7 @@ import "./index.css";
 
 const Header_right = () => {
   const [a, setA] = useState(0);
-  let i = "Tìm kiếm sản phẩm ...xBạn cần tìm gì ...?xNhập tên sản phẩmz";
+  let i = "Tìm kiếm sản phẩm ...xBạn cần tìm gì ...?xNhập tên sản phẩm z";
   const [content, setContent] = useState("");
   useEffect(() => {
     const timer = setInterval(() => {
