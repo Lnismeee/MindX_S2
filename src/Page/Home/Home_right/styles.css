@@ -1,0 +1,72 @@
+.right {
+    margin-left: 50px;
+}
+.right__second {
+    display: flex;
+}
+.r-s-list {
+    display: flex;
+    gap: 20px;
+}
+.r-s-card {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    padding: 20px;
+    background-image: url("https://bizweb.dktcdn.net/100/488/521/themes/913255/assets/home_main_policy_item_background_2.jpg?1695187373377");
+    border-radius: 20px;
+    object-fit: contain;
+}
+.r-s-card__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color: green;
+    border-radius: 100%;
+    font-size: 3rem;
+    color: #fff;
+}
+.r-s-card__icon i:hover {
+    rotate: 90deg;
+    transition: 0.5s;
+}
+.r-s-desc {
+    margin-left: 30px;
+}
+.r-s-desc span {
+    display: block;
+}
+.r-s-span__heading {
+    font-size: 1.6rem;
+    color: blue;
+}
+/* baby */
+.r-baby {
+    margin-top: 50px;
+}
+.baby__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+.baby__img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
+.baby__desc {
+    color: #000;
+}
+.baby__item:hover .baby__desc {
+    color: #007bff;
+}
+/* trend */
+.r-trend {
+    padding: 50px 0;
+}

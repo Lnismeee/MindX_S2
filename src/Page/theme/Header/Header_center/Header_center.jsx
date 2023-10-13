@@ -1,16 +1,22 @@
 import React from "react";
-
-import "./index.css"
+import { Link, NavLink } from "react-router-dom";
+import "./index.css";
 
 const Header_center = () => {
   return (
     <div className="header-center">
-      <div className="h-c-title">Trang chủ</div>
-      <div className="h-c-title">Tất cả sản phẩm &#8250;</div>
-      <div className="h-c-title">Tin tức</div>
-      <div className="h-c-title">Nhóm sản phẩm &#8250;</div>
-      <div className="h-c-title">Chi tiết sản phẩm &#8250;</div>
-      <div className="h-c-title">Liên hệ</div>
+      <Link to="/" className="h-c-title">
+        Trang chủ
+      </Link>
+      <Link to="/products" className="h-c-title">
+        Tất cả sản phẩm &#8250;
+      </Link>
+      <Link to="/news" className="h-c-title">
+        Tin tức
+      </Link>
+      <Link to="/contact" className="h-c-title">
+        Liên hệ
+      </Link>
     </div>
   );
 };

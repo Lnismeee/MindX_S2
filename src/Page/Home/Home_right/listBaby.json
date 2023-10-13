@@ -1,0 +1,112 @@
+{
+    "girl": [
+        {
+            "id": 1,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_1.png?1695187373377",
+            "name": "0-3 tháng tuổi"
+        },
+        {
+            "id": 2,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_2.png?1695187373377",
+            "name": "3-6 tháng tuổi"
+        },
+        {
+            "id": 3,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_3.png?1695187373377",
+            "name": "6-9 tháng tuổi"
+        },
+        {
+            "id": 4,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_4.png?1695187373377",
+            "name": "9-12 tháng tuổi"
+        },
+        {
+            "id": 5,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_5.png?1695187373377",
+            "name": "12-18 tháng tuổi"
+        },
+        {
+            "id": 6,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head2_image_6.png?1695187373377",
+            "name": "18-24 tháng tuổi"
+        }
+    ],
+    "boy": [
+        {
+            "id": 1,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_1.png?1695187373377",
+            "name": "0-3 tháng tuổi"
+        },
+        {
+            "id": 2,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_2.png?1695187373377",
+            "name": "3-6 tháng tuổi"
+        },
+        {
+            "id": 3,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_3.png?1695187373377",
+            "name": "6-9 tháng tuổi"
+        },
+        {
+            "id": 4,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_4.png?1695187373377",
+            "name": "9-12 tháng tuổi"
+        },
+        {
+            "id": 5,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_5.png?1695187373377",
+            "name": "12-18 tháng tuổi"
+        },
+        {
+            "id": 6,
+            "img": "https://bizweb.dktcdn.net/thumb/medium/100/488/521/themes/913255/assets/home_main_tab_head_image_6.png?1695187373377",
+            "name": "18-24 tháng tuổi"
+        }
+    ],
+    "hot": [
+        {
+            "name": "Mamas & Papas Baby Snug with Tray",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-fd8d66c32bd64ba38bb5311c5943e3f3.jpg?v=1694680856517",
+            "img_2": "",
+            "discount": "-98%",
+            "cost": 200000,
+            "old_cost": 8000000,
+            "type": "Baby Seats",
+            "id": 112033922,
+            "barcode": 473486730
+        },
+        {
+            "name": "Maclaren Toy Bmw Buggy Stroller, Silver",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-72da426e4dce47d58ad1d34b3a5e540f.jpg?v=1694680853870",
+            "img_2": "",
+            "discount": "-73%",
+            "cost": 550000,
+            "old_cost": 2000000,
+            "type": "baby carriers",
+            "id": 956123608,
+            "barcode": 527974486
+        },
+        {
+            "name": "Little People Bath Time Fun Gift Set",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-1c944fd6b93d482bb5d0bd94ac7c9fb4.jpg?v=1694680830503",
+            "img_2": "",
+            "discount": "-81%",
+            "cost": 1150000,
+            "old_cost": 6000000,
+            "type": "Toys",
+            "id": 683882995,
+            "barcode": 941877049
+        },
+        {
+            "name": "Link 'n Go Play Pack",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-02e223e9f0304190b36887db9aa70f8d.jpg?v=1694680806233",
+            "img_2": "",
+            "discount": "-15%",
+            "cost": 1700000,
+            "old_cost": 2000000,
+            "type": "Clothes",
+            "id": 266791104,
+            "barcode": 808496791
+        }
+    ]
+}
