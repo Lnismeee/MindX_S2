@@ -14,6 +14,21 @@ const Card = ({ data }) => {
     barcode,
     hide = true,
   } = data;
+  const tran = (e) => {
+    let a = String(e);
+    let b = "";
+    for (let i = a.length - 1; i >= 0; i--) {
+      if ((a.length - 1 - i) % 3 == 0) b += ".";
+      b += a[i];
+    }
+    //1000000
+    b = b
+      .split("")
+      .reverse()
+      .join("")
+      .substring(0, b.length - 1);
+    return b;
+  };
   if (hide == true)
     return (
       <div className="card">
@@ -29,8 +44,8 @@ const Card = ({ data }) => {
         <div className="info">
           <h2>{name}</h2>
           <div className="cost">
-            <p>{cost} ₫</p>
-            <del>{old_cost}₫</del>
+            <p>{tran(cost)} ₫</p>
+            <del>{tran(old_cost)}₫</del>
           </div>
           <div className="star">
             <i className="fa-regular fa-star"></i>
