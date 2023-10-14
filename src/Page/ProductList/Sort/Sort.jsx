@@ -10,14 +10,15 @@ const Sort = ({ data, setData }) => {
 
   return (
     <div className="Sort">
+      <h2>Sắp xếp theo</h2>
       <select name="lang" id="lang-select">
-        <option value="">--Hãy chọn một ngôn ngữ lập trình--</option>
-        <option value="csharp">C#</option>
-        <option value="cpp">C++</option>
-        <option value="php">PHP</option>
-        <option value="ruby">Ruby</option>
-        <option value="js">Javascript</option>
-        <option value="dart">Dart</option>
+        <option value="">Mặc định</option>
+        <option value="csharp">A &#8594; Z</option>
+        <option value="cpp">Z &#8594; A</option>
+        <option value="php">Giá tăng dần</option>
+        <option value="ruby">Giá giảm dần</option>
+        <option value="js">Hàng mới nhất</option>
+        <option value="dart">Hàng cũ nhất</option>
       </select>
     </div>
   );
