@@ -37,6 +37,12 @@ const Filter = ({ data, setData }) => {
     dk.forEach((e) => {
       arrtmp.push({ name: e, check: false });
     });
+    arrtmp.sort((fi, se) => {
+      let x = fi.name.toLowerCase();
+      let y = se.name.toLowerCase();
+
+      return x == y ? 0 : x > y ? 1 : -1;
+    });
     setArrtype([...arrtmp]);
   }, []);
   // Xử lý điều kiện type
@@ -77,7 +83,6 @@ const Filter = ({ data, setData }) => {
         e.hide = true;
       });
     setData([...data]);
-    console.log(1);
   }, [arrcost]);
   // Thay đổi điều kiện khi input thay đổi
   const ChangeDk = (e) => {
