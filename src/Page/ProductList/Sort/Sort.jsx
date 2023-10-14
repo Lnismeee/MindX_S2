@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import olddata1 from "../../../Data/datacopy.json";
+import "./index.css";
 const Sort = ({ data, setData }) => {
   const [olddata, setOldData] = useState(olddata1);
   const ToSort = (e) => {
@@ -36,23 +37,28 @@ const Sort = ({ data, setData }) => {
   //
   const [selectSort, SetSelectSort] = useState("");
   return (
-    <div className="Sort">
-      <h2>Sắp xếp theo</h2>
-      <select
-        value={selectSort}
-        onChange={(e) => {
-          SetSelectSort(e.target.value);
-          ToSort(e.target.value);
-        }}
-      >
-        <option>Mặc định</option>
-        <option>A &#8594; Z</option>
-        <option>Z &#8594; A</option>
-        <option>Giá tăng dần</option>
-        <option>Giá giảm dần</option>
-        <option>Hàng mới nhất</option>
-        <option>Hàng cũ nhất</option>
-      </select>
+    <div className="sort">
+      <div className="sort-left">
+        <h2>Hiển thị</h2>
+      </div>
+      <div className="sort-right">
+        <h2>Sắp xếp theo</h2>
+        <select
+          value={selectSort}
+          onChange={(e) => {
+            SetSelectSort(e.target.value);
+            ToSort(e.target.value);
+          }}
+        >
+          <option>Mặc định</option>
+          <option>A &#8594; Z</option>
+          <option>Z &#8594; A</option>
+          <option>Giá tăng dần</option>
+          <option>Giá giảm dần</option>
+          <option>Hàng mới nhất</option>
+          <option>Hàng cũ nhất</option>
+        </select>
+      </div>
     </div>
   );
 };

@@ -1,16 +1,17 @@
 import React from "react";
 
-const Item = ({ data, ChangeDk }) => {
+const Item = ({ data, ChangeDk, id }) => {
   return (
     <div className="filer-item">
       <input
         type="checkbox"
+        id={id}
         value={data.name}
         onClick={() => {
           ChangeDk(data.name);
         }}
       />
-      <label>{data.name}</label>
+      <label for={id}>{data.name}</label>
     </div>
   );
 };

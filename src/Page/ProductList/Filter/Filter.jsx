@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Item from "./Item/Item";
 import ItemColor from "./ItemColor/ItemColor";
 import { useEffect } from "react";
-
+import "./index.css";
 const Filter = ({ data, setData }) => {
   // Khởi tạo các mảng điều kiện
   let count = 0;
@@ -115,30 +115,60 @@ const Filter = ({ data, setData }) => {
 
   return (
     <div className="filter">
+      <div className="brand">
+        <h2>Thương hiệu sản phẩm</h2>
+        <div>
+          <input type="checkbox" id="thsp" />
+          <label for="thsp">F1GENZ Babies</label>
+        </div>
+      </div>
       <div className="type">
         <h2>Loại sản phẩm</h2>
         {arrtype.map((item, index) => {
-          return <Item data={item} key={index} ChangeDk={ChangeDk} />;
+          return (
+            <Item data={item} key={index} id={index} ChangeDk={ChangeDk} />
+          );
         })}
       </div>
       <div className="size">
         <h2>Kích thước</h2>
         {arrsize.map((item, index) => {
-          return <Item data={item} key={index + 100} ChangeDk={ChangeDk} />;
+          return (
+            <Item
+              data={item}
+              key={index + 100}
+              id={index + 100}
+              ChangeDk={ChangeDk}
+            />
+          );
         })}
       </div>
       <div className="color">
         <h2>Màu sắc</h2>
-        {arrcolor.map((item, index) => {
-          return (
-            <ItemColor data={item} key={index + 200} ChangeDk={ChangeDk} />
-          );
-        })}
+        <div>
+          {arrcolor.map((item, index) => {
+            return (
+              <ItemColor
+                data={item}
+                id={index + 200}
+                key={index + 200}
+                ChangeDk={ChangeDk}
+              />
+            );
+          })}
+        </div>
       </div>
       <div className="fil_cost">
         <h2>Giá sản phẩm</h2>
         {arrcost.map((item, index) => {
-          return <Item data={item} key={index + 300} ChangeDk={ChangeDk} />;
+          return (
+            <Item
+              data={item}
+              id={index + 300}
+              key={index + 300}
+              ChangeDk={ChangeDk}
+            />
+          );
         })}
       </div>
     </div>

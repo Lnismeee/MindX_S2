@@ -3,20 +3,23 @@ import { Link, NavLink } from "react-router-dom";
 import "./index.css";
 
 const Header_center = () => {
+  const activeClass = (params) => {
+    return params.isActive ? "active-item h-c-title" : "h-c-title";
+  };
   return (
     <div className="header-center">
-      <Link to="/" className="h-c-title">
+      <NavLink to="/" className={activeClass}>
         Trang chủ
-      </Link>
-      <Link to="/products" className="h-c-title">
+      </NavLink>
+      <NavLink to="/products" className={activeClass}>
         Tất cả sản phẩm &#8250;
-      </Link>
-      <Link to="/news" className="h-c-title">
+      </NavLink>
+      <NavLink to="/news" className={activeClass}>
         Tin tức
-      </Link>
-      <Link to="/contact" className="h-c-title">
+      </NavLink>
+      <NavLink to="/contact" className={activeClass}>
         Liên hệ
-      </Link>
+      </NavLink>
     </div>
   );
 };
