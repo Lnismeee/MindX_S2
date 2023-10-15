@@ -1,6 +1,9 @@
-.each-fade img {
-    width: 600px;
-}
-button {
+.react-slideshow-container .default-nav {
     display: none;
+}
+
+.slide-container img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: contain;
 }

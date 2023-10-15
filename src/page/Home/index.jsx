@@ -11,33 +11,6 @@ import Card from "../../components/Card/Card";
 import data from "../../Data/data.json";
 
 const Home = () => {
-    const slides = [
-        {
-            url: "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_slider_banner_image_1.jpg?1695187373377",
-            title: "beach",
-        },
-        {
-            url: "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_slider_banner_image_1.jpg?1695187373377",
-            title: "boat",
-        },
-        {
-            url: "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_slider_banner_image_1.jpg?1695187373377",
-            title: "forest",
-        },
-        {
-            url: "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_slider_banner_image_1.jpg?1695187373377",
-            title: "city",
-        },
-        {
-            url: "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_slider_banner_image_1.jpg?1695187373377",
-            title: "italy",
-        },
-    ];
-    const containerStyles = {
-        width: "500px",
-        height: "280px",
-        margin: "0 auto",
-    };
     return (
         <>
             <main>

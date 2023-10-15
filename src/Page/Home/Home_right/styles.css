@@ -1,15 +1,72 @@
 .right {
     margin-left: 50px;
 }
-.right__second {
+/*  */
+.right__first {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-f-l {
+    width: 675px;
+    height: 400px;
+    object-fit: cover;
+}
+.r-f-r {
+    margin-left: 30px;
+}
+.r-f-r img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+.r-f-r img:last-child {
+    margin-top: 10px;
+}
+/* bear */
+.r-bear {
+    padding: 50px 0;
+}
+.bear__list {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.bear__item {
+    position: relative;
+}
+.bear__img {
+    width: 200px;
+}
+.bear__desc {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    white-space: nowrap;
+    border-bottom: 1px solid #fff;
+    font-size: 30px;
+    margin: 0;
+    transition: all 0.2s;
+}
+/*  */
+.r-img-i {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*  */
+.right__second {
+    padding: 30px 0;
 }
 .r-s-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 .r-s-card {
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +74,7 @@
     padding: 20px;
     background-image: url("https://bizweb.dktcdn.net/100/488/521/themes/913255/assets/home_main_policy_item_background_2.jpg?1695187373377");
     border-radius: 20px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .r-s-card__icon {
     display: flex;
@@ -26,7 +83,7 @@
     min-width: 80px;
     height: 80px;
     padding: 10px;
-    background-color: green;
+    background-color: #f25b61;
     border-radius: 100%;
     font-size: 3rem;
     color: #fff;
@@ -36,13 +93,13 @@
     transition: 0.5s;
 }
 .r-s-desc {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .r-s-desc span {
     display: block;
 }
 .r-s-span__heading {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     color: blue;
 }
 /* baby */
@@ -69,4 +126,69 @@
 /* trend */
 .r-trend {
     padding: 50px 0;
+}
+.r-t-heading {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.r-t-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/* dem nguoc */
+.count {
+    padding: 50px 0;
+}
+.c-img {
+    object-fit: contain;
+}
+.countdown {
+    display: flex;
+}
+.countdown div {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 5px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.c-h {
+    margin: 0 10px;
+    font-size: 2rem;
+    align-items: center;
+}
+/* sale */
+.r-sale {
+    padding: 50px 0;
+}
+.sale__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: black;
+}
+
+.sale__img {
+    width: 100px;
+}
+.sale__card {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.sale__info {
+    margin-left: 10px;
+}
+.sale__cost span {
+    font-size: 1.6rem;
+    color: #f25b61;
+    font-weight: 600px;
+}
+.sale__cost del {
+    margin: 0 10px;
 }
