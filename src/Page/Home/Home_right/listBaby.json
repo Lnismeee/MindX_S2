@@ -108,5 +108,133 @@
             "id": 266791104,
             "barcode": 808496791
         }
+    ],
+    "bear": [
+        {
+            "id": 1,
+            "name": "Áo Vest",
+            "img": "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_collection_item_image_1.png?1695187373377"
+        },
+        {
+            "id": 2,
+            "name": "Áo Lính Cứu Hoả",
+            "img": "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_collection_item_image_2.png?1695187373377"
+        },
+        {
+            "id": 3,
+            "name": "Áo Bộ Đội",
+            "img": "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_collection_item_image_3.png?1695187373377"
+        },
+        {
+            "id": 4,
+            "name": "Áo Tạp Vụ",
+            "img": "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_collection_item_image_4.png?1695187373377"
+        },
+        {
+            "id": 5,
+            "name": "Áo Y Tá",
+            "img": "https://bizweb.dktcdn.net/thumb/grande/100/488/521/themes/913255/assets/home_main_collection_item_image_5.png?1695187373377"
+        }
+    ],
+    "sale": [
+        {
+            "name": "Gloria Wardrobe and Mirror",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-779fa4796a3a4c549e2c30c0cadbc722.jpg?v=1694680521490",
+            "img_2": "",
+            "discount": "-92%",
+            "cost": 450000,
+            "old_cost": 6000000,
+            "type": "Toys",
+            "id": 885236078,
+            "barcode": 505267634
+        },
+        {
+            "name": "Funworld Canvas Shoes",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-90c3b427db2e4f08a7a63dafdf837869.jpg?v=1694680498473",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-2b87e1ee508846b0a0caadc97864ad48.jpg?v=1694680498473",
+            "discount": "-55%",
+            "cost": 1350000,
+            "old_cost": 3000000,
+            "type": "Shoes",
+            "id": 844008917,
+            "barcode": 226755672
+        },
+        {
+            "name": "Funskool Teddy",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-47b6275e2fb640adbada9a263c15541e.jpg?v=1694680494240",
+            "img_2": "",
+            "discount": "-72%",
+            "cost": 1400000,
+            "old_cost": 5000000,
+            "type": "Toys",
+            "id": 777190101,
+            "barcode": 690828676
+        },
+        {
+            "name": "Front Tie Raised",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-f6098cec46bd4f0c949a53a7c04075c6.jpg?v=1694680449307",
+            "img_2": "",
+            "discount": "-82%",
+            "cost": 1650000,
+            "old_cost": 9000000,
+            "type": "Toys",
+            "id": 169731778,
+            "barcode": 654501637
+        },
+        {
+            "name": "Flutter-Sleeve Geo Print Tee",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-09868e73d10647cd91c340329b829e53.jpg?v=1694680361883",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-b5c5baef56504d9bae17e3c6959afa96.jpg?v=1694680361883",
+            "discount": "-74%",
+            "cost": 1300000,
+            "old_cost": 5000000,
+            "type": "Clothes",
+            "id": 302896832,
+            "barcode": 418309410
+        },
+        {
+            "name": "Flowy Open-Back Shirt",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-caa0a885f4f848c1b35667795e9183c4.jpg?v=1694680356590",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-1300d30edf7d454eb684eff17840d78e.jpg?v=1694680356590",
+            "discount": "-74%",
+            "cost": 1300000,
+            "old_cost": 5000000,
+            "type": "Clothes",
+            "id": 295847118,
+            "barcode": 796932850
+        },
+        {
+            "name": "Flip & Surprise Caterpillar",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-f3cb390b7dcd443d84bdcbb1d6093a7b.jpg?v=1694680243597",
+            "img_2": "",
+            "discount": "-89%",
+            "cost": 600000,
+            "old_cost": 5500000,
+            "type": "Clothes",
+            "id": 810610109,
+            "barcode": 131781179
+        },
+        {
+            "name": "Feeding Bottles",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-4732b14209954d20adcf4ff8b0b58b78.jpg?v=1694680241707",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-617a1c6c55b84fdeb124e1a6f250f6e5.jpg?v=1694680241707",
+            "discount": "-98%",
+            "cost": 150000,
+            "old_cost": 8500000,
+            "type": "Toys",
+            "id": 565885276,
+            "barcode": 205682435
+        },
+        {
+            "name": "Deuter Black Tour Bag",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-50cc78d5e9144b03ac3b86a8811917cf.jpg?v=1694680216150",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-cb22fca0867a42f9a3847aa277829607.jpg?v=1694680216150",
+            "discount": "-91%",
+            "cost": 800000,
+            "old_cost": 8500000,
+            "type": "Bag",
+            "id": 895099543,
+            "barcode": 589865891
+        }
     ]
 }
