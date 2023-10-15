@@ -6,6 +6,7 @@ import Contact from "./page/Contact";
 import { Routes, Route } from "react-router-dom";
 import Header from "./page/theme/Header/Header";
 import Footer from "./page/theme/Footer";
+
 function App() {
   return (
     <>
