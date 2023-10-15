@@ -5,6 +5,7 @@ import News from "./page/News";
 import Contact from "./page/Contact";
 import { Routes, Route } from "react-router-dom";
 import Header from "./page/theme/Header/Header";
+import Footer from "./page/theme/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 }

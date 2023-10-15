@@ -8,18 +8,20 @@ const Header_center = () => {
   };
   return (
     <div className="header-center">
-      <NavLink to="/" className={activeClass}>
-        Trang chủ
-      </NavLink>
-      <NavLink to="/products" className={activeClass}>
-        Tất cả sản phẩm &#8250;
-      </NavLink>
-      <NavLink to="/news" className={activeClass}>
-        Tin tức
-      </NavLink>
-      <NavLink to="/contact" className={activeClass}>
-        Liên hệ
-      </NavLink>
+      <div className="pc">
+        <NavLink to="/" className={activeClass}>
+          Trang chủ
+        </NavLink>
+        <NavLink to="/products" className={activeClass}>
+          Tất cả sản phẩm &#8250;
+        </NavLink>
+        <NavLink to="/news" className={activeClass}>
+          Tin tức
+        </NavLink>
+        <NavLink to="/contact" className={activeClass}>
+          Liên hệ
+        </NavLink>
+      </div>
     </div>
   );
 };

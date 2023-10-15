@@ -1,9 +1,15 @@
 .header-center {
-  flex-grow: 8;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 16;
+  gap: 20px;
+}
+.pc {
   display: flex;
   flex-direction: row;
   gap: 30px;
   align-items: center;
+  justify-content: flex-start;
 }
 .h-c-title:hover {
   color: #f25b61;

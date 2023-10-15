@@ -5,7 +5,7 @@ const Card = ({ data }) => {
   const {
     name,
     img_1,
-    img2,
+    img_2,
     discount,
     cost,
     old_cost,
@@ -39,7 +39,8 @@ const Card = ({ data }) => {
           <i className="icon_item item_hidden fa-solid fa-cart-shopping"></i>
         </div>
         <div className="card_img">
-          <img src={img_1} alt="" />
+          <img className="img1" src={img_1} alt="" />
+          <img className="img2" src={img_2 == "" ? img_1 : img_2} alt="" />
         </div>
         <div className="info">
           <h2>{name}</h2>

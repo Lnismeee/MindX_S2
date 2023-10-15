@@ -14,6 +14,10 @@
   overflow: hidden;
   display: inline-block;
 }
+.img2 {
+  display: none;
+  width: 100%;
+}
 .card:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -60,6 +64,12 @@
   color: white;
 }
 .card:hover .item_hidden {
+  display: block;
+}
+.card:hover .img1 {
+  display: none;
+}
+.card:hover .img2 {
   display: block;
 }
 .item_hidden {
