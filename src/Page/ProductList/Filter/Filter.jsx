@@ -119,7 +119,7 @@ const Filter = ({ data, setData }) => {
         <h2>Thương hiệu sản phẩm</h2>
         <div>
           <input type="checkbox" id="thsp" />
-          <label for="thsp">F1GENZ Babies</label>
+          <label htmlFor="thsp">F1GENZ Babies</label>
         </div>
       </div>
       <div className="type">

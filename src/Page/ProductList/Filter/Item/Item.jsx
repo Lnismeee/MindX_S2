@@ -11,7 +11,7 @@ const Item = ({ data, ChangeDk, id }) => {
           ChangeDk(data.name);
         }}
       />
-      <label for={id}>{data.name}</label>
+      <label htmlFor={id}>{data.name}</label>
     </div>
   );
 };
