@@ -42,7 +42,7 @@ const Card = ({ data }) => {
           <img className="img1" src={img_1} alt="" />
           <img className="img2" src={img_2 == "" ? img_1 : img_2} alt="" />
         </div>
-        <div className="info">
+        <div className="info1">
           <h2>{name}</h2>
           <div className="cost">
             <p>{tran(cost)} ₫</p>

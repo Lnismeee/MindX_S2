@@ -75,11 +75,11 @@
 .item_hidden {
   display: none;
 }
-.info h2 {
+.info1 h2 {
   font-size: 18px;
   text-align: center;
 }
-.info h2:hover {
+.info1 h2:hover {
   color: #f25b61;
 }
 .cost {
