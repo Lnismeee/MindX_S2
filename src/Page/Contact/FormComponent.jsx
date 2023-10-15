@@ -1,3 +1,4 @@
+// Contact.js
 import React from 'react';
 import './contacts.css'; // Import the CSS file
 import './form.css';
@@ -36,13 +37,13 @@ const Contact = () => {
       <div className="container-form">
         <div className="form-map-container">
           <div className="form-container">
-            <h3 className='contact-heading'>KẾT NỐI NGAY VỚI CHÚNG TÔI </h3>
+            <h3 className="contact-heading">KẾT NỐI NGAY VỚI CHÚNG TÔI</h3>
             <div className="form-row form-row-tall">
               <input type="text" className="form-input form-input-tall" placeholder="Tên của bạn" />
             </div>
 
             <div className="form-row form-row-tall">
-              <input type="text" className="form-input form-input-tall" placeholder="Số điện thoại của bạn" />
+              <input type="text" className="form-input form-input-tall"placeholder="Số điện thoại của bạn" />
             </div>
 
             <div className="form-row form-row-tall">
