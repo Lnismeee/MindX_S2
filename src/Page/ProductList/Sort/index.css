@@ -1,0 +1,11 @@
+.sort {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sort-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

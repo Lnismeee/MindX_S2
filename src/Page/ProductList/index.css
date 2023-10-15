@@ -1,10 +1,13 @@
-.product_list{
-    display: flex;
-    flex-direction: row;
+.product_list {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
 }
-.filter{
-    flex:1;
+.product_list_right {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
 }
-.list{
-    flex: 4;
+.filter {
+  flex: 1;
 }
