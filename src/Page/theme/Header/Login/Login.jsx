@@ -21,6 +21,7 @@ const Login = () => {
       )}
       <input
         type="checkbox"
+        className="none"
         id="login"
         checked={boxlogin}
         onChange={() => {
@@ -29,6 +30,7 @@ const Login = () => {
       />
       <input
         type="checkbox"
+        className="none"
         id="logout"
         checked={boxlogout}
         onChange={() => {
