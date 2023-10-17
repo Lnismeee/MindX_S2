@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
-
 import "./index.css";
+import Login from "../Login/Login.jsx";
 
 const Header_right = () => {
   const activeClass = (params) => {
     return params.isActive ? "active-item h-c-title" : "h-c-title";
   };
   const [a, setA] = useState(0);
-  let i = "Tìm kiếm sản phẩm ...xBạn cần tìm gì ...?xNhập tên sản phẩm z";
+  let i = "Tìm kiếm sản phẩm ...  xBạn cần tìm gì ...?   xNhập tên sản phẩm z";
   const [content, setContent] = useState("");
   useEffect(() => {
     const timer = setInterval(() => {
@@ -37,7 +37,7 @@ const Header_right = () => {
       <label htmlFor="check_repon" className="i_check">
         <i className="fa-solid fa-bars"></i>
       </label>
-      <i className="fa-regular fa-user"></i>
+      <Login />
       <i className="fa-regular fa-heart"></i>
       <i className="fa-solid fa-bag-shopping"></i>
       <input

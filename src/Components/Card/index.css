@@ -76,11 +76,19 @@
     display: none;
 }
 .info1 h2 {
+<<<<<<< HEAD
     font-size: 18px;
     text-align: center;
 }
 .info1 h2:hover {
     color: #f25b61;
+=======
+  font-size: 18px;
+  text-align: center;
+}
+.info1 h2:hover {
+  color: #f25b61;
+>>>>>>> da9bb5d274124b93b56ea76285ea9c132718da2e
 }
 .cost {
     display: flex;
