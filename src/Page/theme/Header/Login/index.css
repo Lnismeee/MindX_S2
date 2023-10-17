@@ -1,6 +1,7 @@
-.login input {
+.none {
   display: none;
 }
+
 .login h2 {
   font-size: 16px;
 }
@@ -49,7 +50,6 @@
   position: fixed;
   background-color: white;
   width: 70%;
-  height: 60%;
   display: none;
   animation: fadein linear 0.5s;
   z-index: 102;
