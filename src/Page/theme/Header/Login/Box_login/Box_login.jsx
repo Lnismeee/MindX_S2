@@ -35,6 +35,7 @@ const Box_login = () => {
         {render == 1 && (
           <div className="dn">
             <h2>ĐĂNG NHẬP</h2>
+            <p></p>
           </div>
         )}
         {render == 2 && (
