@@ -8,7 +8,7 @@ import Slideshow from "../../../components/Slider";
 import Swiper from "../../../components/Swiper";
 import Button from "../../../components/Button";
 const Home_right = () => {
-    var tetAmLich = new Date(2023, 9, 16, 0, 0, 0).getTime();
+    var tetAmLich = new Date(2023, 9, 19, 0, 0, 0).getTime();
 
     function newYear() {
         let ngayHienTai = new Date().getTime();

@@ -261,4 +261,12 @@
         overflow-y: scroll;
         height: 300px;
     }
+    /* flashsale */
+    .s-list {
+        width: 412px;
+    }
+    .s-item {
+        margin-left: 20px;
+        width: 200px;
+    }
 }
