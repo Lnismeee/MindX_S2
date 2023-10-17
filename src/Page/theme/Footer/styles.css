@@ -7,9 +7,10 @@
     font-family: Oswald, sans-serif;
 }
 .footer {
-    padding-top: 100px;
+    padding: 100px;
     background-image: url(https://bizweb.dktcdn.net/100/488/521/themes/913255/assets/footers2_background.jpg?1695187373377);
     object-fit: contain;
+    max-width: 100%;
 }
 
 .footer__row {
@@ -137,4 +138,17 @@
     line-height: 1.23;
     text-align: center;
     color: #aab3ba;
+}
+@media only screen and (max-width: 480px) {
+    .footer {
+        padding: 30px;
+    }
+    .footer__row {
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+    }
+    .footer__column:nth-child(2),
+    .footer__column:nth-child(3) {
+        display: none;
+    }
 }

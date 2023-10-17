@@ -199,3 +199,66 @@
 .c-s-item {
     min-width: 100%;
 } */
+
+@media only screen and (max-width: 480px) {
+    .right {
+        margin-left: 0;
+        width: 386px;
+    }
+    .right__first {
+        display: block;
+    }
+    .r-f-l {
+        width: 412px;
+        height: 0px;
+    }
+    .r-f-r {
+        display: none;
+    }
+    /*  */
+    .right__second {
+        margin-top: 200px;
+    }
+    .r-s-list {
+        overflow-x: scroll;
+    }
+    .r-s-card {
+        width: 300px;
+    }
+    .r-s-card__icon {
+        width: 80px;
+    }
+
+    .r-s-desc span {
+        font-size: 1.4rem;
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .r-s-span__heading {
+        font-size: 1.4rem;
+    }
+    /* bear */
+    .r-bear {
+        padding: 0;
+    }
+    .bear__item {
+        margin-right: 20px;
+    }
+    .bear__list {
+        overflow-x: scroll;
+    }
+    /* baby */
+    .baby__list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .r-t-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sale__list {
+        grid-template-columns: repeat(1, 1fr);
+        overflow-y: scroll;
+        height: 300px;
+    }
+}

@@ -170,12 +170,7 @@
 .l-c-input::placeholder {
     color: #fff;
 }
-.btn {
-    margin-top: 10px;
-}
-.btn a {
-    color: #fff;
-}
+
 /* left-endow */
 .left-endow {
     padding: 40px 0;
@@ -197,4 +192,11 @@
     height: 200px;
     object-fit: cover;
     border-radius: 100%;
+}
+/* responsive */
+/* Mobile */
+@media only screen and (max-width: 740px) {
+    .left {
+        display: none;
+    }
 }

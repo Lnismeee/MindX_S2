@@ -73,14 +73,12 @@ const Footer = () => {
                         <ul className="footer__list">
                             <li className="footer__item">
                                 <a href="#!" className="footer__link">
-                                    {" "}
-                                    IOS{" "}
+                                    IOS
                                 </a>
                             </li>
                             <li className="footer__item">
                                 <a href="#!" className="footer__link">
-                                    {" "}
-                                    Android{" "}
+                                    Android
                                 </a>
                             </li>
                         </ul>

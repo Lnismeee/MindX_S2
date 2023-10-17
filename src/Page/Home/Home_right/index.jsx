@@ -6,6 +6,7 @@ import { girl, boy, hot, bear, sale } from "./listBaby.json";
 import Card from "../../../components/Card/Card";
 import Slideshow from "../../../components/Slider";
 import Swiper from "../../../components/Swiper";
+import Button from "../../../components/Button";
 const Home_right = () => {
     var tetAmLich = new Date(2023, 9, 16, 0, 0, 0).getTime();
 
@@ -199,6 +200,7 @@ const Home_right = () => {
                                         <i className="fa-regular fa-star"></i>
                                         <i className="fa-regular fa-star"></i>
                                     </div>
+                                    <Button></Button>
                                 </div>
                             </li>
                         ))}

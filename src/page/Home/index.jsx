@@ -9,7 +9,7 @@ import Home_footer from "./Home_footer";
 import Home_right from "./Home_right";
 
 import Swiper from "../../components/Swiper";
-
+import Buy from "../../components/Buy";
 const Home = () => {
     return (
         <>
@@ -22,6 +22,7 @@ const Home = () => {
                     <div className="home__bottom">
                         <Home_footer></Home_footer>
                     </div>
+                    {/* <Buy></Buy> */}
                 </div>
             </main>
         </>

@@ -7,3 +7,8 @@
     width: 100%;
     object-fit: contain;
 }
+@media only screen and (max-width: 470px) {
+    .slide-container img {
+        width: 384px;
+    }
+}

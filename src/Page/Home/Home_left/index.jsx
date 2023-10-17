@@ -6,7 +6,6 @@ import { news, endow } from "./leftFifth.json";
 import { left1 } from "./leftFifth.json";
 import data from "../../../Data/data.json";
 import { useEffect, useState } from "react";
-
 const Home_left = () => {
     const [a, setA] = useState(0);
     let i = "Bạn cần tư vấn?   xNhập địa chỉ email của bạn ...z";
@@ -125,6 +124,7 @@ const Home_left = () => {
                                         <i className="fa-regular fa-star"></i>
                                         <i className="fa-regular fa-star"></i>
                                     </div>
+                                    <Button></Button>
                                 </div>
                             </li>
                         ))}
@@ -168,6 +168,7 @@ const Home_left = () => {
                                         <i className="fa-regular fa-star"></i>
                                         <i className="fa-regular fa-star"></i>
                                     </div>
+                                    <Button></Button>
                                 </div>
                             </li>
                         ))}
