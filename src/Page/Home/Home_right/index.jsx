@@ -5,6 +5,7 @@ import { girl, boy, hot, bear, sale } from "./listBaby.json";
 
 import Card from "../../../components/Card/Card";
 import Slideshow from "../../../components/Slider";
+import Swiper from "../../../components/Swiper";
 const Home_right = () => {
     var tetAmLich = new Date(2023, 9, 16, 0, 0, 0).getTime();
 
@@ -118,6 +119,11 @@ const Home_right = () => {
                         <div id="hour"></div>
                         <div id="minute"></div>
                         <div id="second"></div>
+                    </div>
+                </div>
+                <div className="c-s-list">
+                    <div className="c-s-item">
+                        <Swiper></Swiper>
                     </div>
                 </div>
                 <div className="r-img-banner">

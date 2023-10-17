@@ -76,5 +76,43 @@
             "id": 576943639,
             "barcode": 506079836
         }
+    ],
+    "endow": [
+        {
+            "name": "Baby Pacifiers",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-d418c0a0fc0b4d0eb7b7b973c5f4cd79.jpg?v=1694679793350",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-4de7f4ac734a47ae97c2dfcdcdac407b.jpg?v=1694679793350",
+            "discount": "-89%",
+            "cost": 1000000,
+            "old_cost": 9000000,
+            "type": "Rope",
+            "id": 756225292,
+            "barcode": 612429392,
+            "hide": true
+        },
+        {
+            "name": "Baby Grow Party hat",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-3e790e2a1a5d499a9dc0e95ee4a79d89.jpg?v=1694679790940",
+            "img_2": "https://bizweb.dktcdn.net/100/488/521/products/upload-0da0d9cf41d24acbbd04a904e4f6f55a.jpg?v=1694679790940",
+            "discount": "-86%",
+            "cost": 1100000,
+            "old_cost": 8000000,
+            "type": "Anchor",
+            "id": 653689454,
+            "barcode": 489990643,
+            "hide": true
+        },
+        {
+            "name": "Sleeveless Ruffle Top",
+            "img_1": "https://bizweb.dktcdn.net/100/488/521/products/upload-e6120077eecb4ea6b9b332c511a43b4d.jpg?v=1694679787923",
+            "img_2": "",
+            "discount": "-88%",
+            "cost": 750000,
+            "old_cost": 6500000,
+            "type": "Clothes",
+            "id": 869214682,
+            "barcode": 555046972,
+            "hide": true
+        }
     ]
 }

@@ -3,7 +3,7 @@ import "./styles.css";
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container">
+            <div className="container1">
                 <div className="footer__row">
                     <div className="footer__column">
                         <a href="#!">

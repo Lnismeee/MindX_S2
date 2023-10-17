@@ -8,7 +8,8 @@
 }
 .footer {
     padding-top: 100px;
-    background: #10375c;
+    background-image: url(https://bizweb.dktcdn.net/100/488/521/themes/913255/assets/footers2_background.jpg?1695187373377);
+    object-fit: contain;
 }
 
 .footer__row {
@@ -116,7 +117,7 @@
     height: 46px;
     min-width: 120px;
     border-radius: 10px;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #2e80ce;
     background-color: #fff;

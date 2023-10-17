@@ -53,7 +53,7 @@
 }
 /*  */
 .r-img-i {
-    width: 100%;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -138,7 +138,7 @@
 }
 /* dem nguoc */
 .count {
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 .c-img {
     object-fit: contain;
@@ -192,3 +192,10 @@
 .sale__cost del {
     margin: 0 10px;
 }
+/*  */
+/* .c-s-list {
+    max-width: 100%;
+}
+.c-s-item {
+    min-width: 100%;
+} */

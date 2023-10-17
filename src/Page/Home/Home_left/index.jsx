@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 import Card from "../../../components/Card/Card";
 import Button from "../../../components/Button/index";
-import { news } from "./leftFifth.json";
+import { news, endow } from "./leftFifth.json";
 import { left1 } from "./leftFifth.json";
 import data from "../../../Data/data.json";
 import { useEffect, useState } from "react";
@@ -140,6 +140,51 @@ const Home_left = () => {
                     <div className="btn">
                         <a href="/">Đăng kí</a>
                     </div>
+                </div>
+                <div className="left-endow">
+                    <h2 className="third__heading">Ưu đãi trong tháng</h2>
+                    <ul className="fifth__list">
+                        {endow.map((item) => (
+                            <li className="fifth__card" key={endow.id}>
+                                <img
+                                    src={item.img_1}
+                                    alt={item.name}
+                                    className="fifth__img"
+                                />
+
+                                <div className="fifth__info">
+                                    <p className="fifth__heading">
+                                        {item.name}
+                                    </p>
+                                    <div className="fifth__cost">
+                                        <span>{item.cost}₫</span>
+                                        <del>{item.old_cost}₫</del>
+                                        <span>({item.discount})</span>
+                                    </div>
+                                    <div className="fifth__star">
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                        <i className="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div className="left-person">
+                    <img
+                        src="https://cdn.tuoitre.vn/thumb_w/640/471584752817336320/2023/2/10/son-ye-jin-1-003902-16760038459682084280230.jpeg"
+                        alt=""
+                        className="l-p-img"
+                    />
+                    <p className="l-p-desc">
+                        Giá thành rẻ, sản phẩm nhập khẩu 100% từ Mỹ, Úc, các sản
+                        phẩm đã qua khâu kiểm duyệt.
+                    </p>
+                    <strong className="l-p-desc">Chị Seo</strong>
+                    <p className="l-p-desc">Người tieu dùng</p>
                 </div>
             </div>
         </div>

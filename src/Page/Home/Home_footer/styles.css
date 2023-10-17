@@ -1,5 +1,5 @@
 .home__footer {
-    padding: 50px 0;
+    padding: 20px 0;
 }
 .home__footer--heading {
     text-align: center;
@@ -8,8 +8,9 @@
     font-size: 4rem;
 }
 .home__footer1 {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
 }
 .home__footer--card {
     display: flex;

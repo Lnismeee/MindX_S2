@@ -14,7 +14,7 @@ body {
 a {
     text-decoration: none;
 }
-.container {
+.container1 {
     max-width: 1920px;
     max-width: calc(100% - 30px);
     margin: 0 auto;
