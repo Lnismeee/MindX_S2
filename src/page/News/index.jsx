@@ -3,7 +3,7 @@ import './board.css'; // Import the CSS file
 
 const News = () => {
   return (
-    <div className='container'>
+    <div className='page-container'>
       <div className="row">
         <div className="grid-container">
           <div className="grid-item">
@@ -54,7 +54,7 @@ const News = () => {
         <div className="medium-boxes-container">
           <h3>ĐỪNG BỎ LỠ.</h3>
               <div className="medium-box">
-                <div className="box-label">1</div>
+              <div className="box-label">1</div>
                 <div className="box-content">
                   <div className="box-img-container">
                     <img src="..\src\assets\news_4.webp" alt="Image 1" />
@@ -88,7 +88,14 @@ const News = () => {
                   </div>
                 </div>
               </div>
+          <div className="new-container">
+            <h3>BẠN CẦN TƯ VẤN?</h3>
+            <img className="new-container-image" src="src\assets\read.webp" alt="Image" />
+        </div>    
         </div>
+
+
+        {/* Add more dropdown sections as needed */}
       </div>
     </div>  
   );

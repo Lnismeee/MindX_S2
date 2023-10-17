@@ -5,20 +5,20 @@
   box-sizing: border-box;
 }
 
-.container {
+.page-container {
+  margin-top: 20px;
   display: flex;
-  flex-direction: row;
+  align-items: baseline;
+  justify-content: left;
   gap: 20px; /* Added gap between container elements */
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-}
-
-.grid-container {
-  flex: 1;
 }
 
 .medium-boxes-container {
@@ -33,6 +33,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  margin-right: auto; /* Add margin-right auto */
+  margin-left: 0; /* Remove margin-left */
 }
 
 .row {
@@ -43,6 +45,7 @@
 }
 
 .grid-item {
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +55,32 @@
   border: 1px solid #ccc;
   box-sizing: border-box;
   margin-bottom: 0; /* Removed margin-bottom for grid items */
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 600px;
+  box-shadow: 0 0 0 0;
+  transition: linear 0.2s;
 }
+
+.grid-item:hover{
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(131, 131, 131, 0.2), 0 6px 20px 0 rgb(194, 194, 194);
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%; /* Changed to max-width */
+  max-height: 100%; /* Changed to max-height */
+  object-fit: cover;
+  transition: transform 0.3s;
+  transform: scale(1.1);
+}
+
+.img-container:hover img {
+  transform: scale(1);
+}
+
 
 .text-container {
   flex-grow: 1;
@@ -80,19 +108,6 @@
   position: relative;
 }
 
-.img-container img {
-  width: 100%;
-  height: 100%;
-  max-width: 100%; /* Changed to max-width */
-  max-height: 100%; /* Changed to max-height */
-  object-fit: cover;
-  transition: transform 0.3s;
-  transform: scale(1.1);
-}
-
-.img-container:hover img {
-  transform: scale(1);
-}
 
 .img-container .magnifying-glass {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/1200px-Magnifying_glass_icon.svg.png");
@@ -118,6 +133,7 @@
 
 /* New CSS styles for the medium boxes */
 .medium-box {
+  
   display: flex;
   align-items: flex-start; /* Adjusted alignment */
   justify-content: center;
@@ -129,10 +145,25 @@
   width: 500px; /* Adjusted width */
   max-width: 800px; /* Adjusted max-width */
   margin-bottom: 10px;
+  transition: linear 0.2s;
 }
 
 .medium-boxes-container h3 {
   color: #f25e63;
+}
+
+.medium-boxes-container h3::before {
+  background-image: url("src/assets/emoji.webp");
+  background-size: 30px 30px; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: inline-block;
+  height: 30px; /* Adjust the height as needed */
+  width: 30px; /* Adjust the width as needed */
+  margin-right: 5px; /* Adjust the margin-right as needed */
+  content: "";
+  vertical-align: middle;
+  margin-bottom: 15px;
 }
 
 .box-label {
@@ -148,6 +179,10 @@
 .box-content {
   display: flex;
   align-items: center;
+
+}
+.medium-box:hover{
+  box-shadow: 0 4px 8px 0 rgba(131, 131, 131, 0.2), 0 6px 20px 0 rgb(194, 194, 194);
 }
 
 .box-img-container {
@@ -204,5 +239,84 @@
 .box-text:hover p{
   color: #f25e63;
   
+}
+
+.medium-box {
+  border-radius: 5px;
+  position: relative;
+}
+
+.box-label {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: pink;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.medium-box {
+  position: relative;
+}
+
+.box-label {
+  text-align: center;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #f25b61;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 0;
+  z-index: 2; /* Add a higher z-index value */
+}
+
+.box-content {
+  position: relative;
+  z-index: 1; /* Add a lower z-index value */
+}
+
+.new-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 600px;
+  width: 500px;
+  max-width: 800px;
+  margin-bottom: 10px;
+  transition: linear 0.2s;
+}
+
+.new-container h3 {
+  color: #f25e63;
+  margin: 0;
+}
+.new-container h3::before {
+  background-image: url("src/assets/emoji.webp");
+  background-size: 30px 30px; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: inline-block;
+  height: 30px; /* Adjust the height as needed */
+  width: 30px; /* Adjust the width as needed */
+  margin-right: 5px; /* Adjust the margin-right as needed */
+  content: "";
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.new-container-image {
+  max-width: 500px; /* Adjust the size of the image as needed */
+  max-height: 500px; /* Adjust the size of the image as needed */
+  object-fit: cover;
 }
 
