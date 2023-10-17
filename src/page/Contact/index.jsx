@@ -1,6 +1,6 @@
 import React from 'react';
 import './contacts.css'; // Import the CSS file
-import './form.css';
+import './index.css';
 
 const Contact = () => {
   const handleSubmit = () => {

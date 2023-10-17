@@ -18,6 +18,8 @@
   color: #f25e63;
 }
 
+
+
 .image {
   flex-shrink: 0;
   padding-left: 20px;
@@ -61,13 +63,13 @@
   background-color: #4CAF50;
   color: white;
   border-radius: 5px;
-  border-style: 1px solid darkblue;
+  border-style: 1px solid #2e3192;
   cursor: pointer;
   transition: all .4s linear;
 }
 
 .form-button:hover {
-  border-style: 1px solid darkblue;
+  border-style: 1px solid #2e3192;
   background-color: #ffffff;
 }
 

@@ -12,10 +12,25 @@
   flex: 1;
 }
 
-.info h2 {
+.container .info h2 {
   text-align: left;
   font-size: 24px;
   color: #f25e63;
+  position: relative;
+}
+
+.container .info h2:before {
+  background-image: url("src/assets/emoji.webp");
+  background-size: 30px 30px; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: inline-block;
+  height: 30px; /* Adjust the height as needed */
+  width: 30px; /* Adjust the width as needed */
+  margin-right: 5px; /* Adjust the margin-right as needed */
+  content: "";
+  vertical-align: middle;
+  margin-bottom: 15px;
 }
 
 .image {
