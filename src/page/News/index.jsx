@@ -85,6 +85,7 @@ const News = () => {
                   <div className="box-content">
                     <div className="box-img-container">
                       <img src="..\src\assets\news_2.webp" alt="Image 3" />
+                      <div className="magnifying-glass"></div>
                     </div>
                     <div className="box-text">
                       <p>6 lợi ích bất ngờ từ đồ chơi thông minh cho bé</p>
