@@ -67,6 +67,9 @@
 .tb {
   color: red;
 }
+.tbxanh {
+  color: green;
+}
 @media only screen and (max-width: 1023px) {
   .dnqua img {
     cursor: pointer;
