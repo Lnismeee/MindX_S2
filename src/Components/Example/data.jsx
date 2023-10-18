@@ -1,5 +1,3 @@
-import { FaFacebook, FaTiktok } from "react-icons/fa";
-
 export default [
     {
         name: "Zalo",
