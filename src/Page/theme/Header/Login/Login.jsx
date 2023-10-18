@@ -38,6 +38,9 @@ const Login = () => {
         }}
       />
       <div className="boxlogin">
+        <label htmlFor="login">
+          <i className="fa-solid fa-xmark"></i>
+        </label>
         <Box_login />
       </div>
       <label htmlFor="login" className="nar-overplay1"></label>

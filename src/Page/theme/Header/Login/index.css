@@ -86,3 +86,8 @@
     display: none;
   }
 }
+.fa-xmark {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

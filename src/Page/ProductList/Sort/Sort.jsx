@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import olddata1 from "../../../Data/datacopy.json";
+import Filter from "../Filter/Filter";
 import "./index.css";
 const Sort = ({ data, setData }) => {
   const [olddata, setOldData] = useState(olddata1);
@@ -39,7 +40,17 @@ const Sort = ({ data, setData }) => {
   return (
     <div className="sort">
       <div className="sort-left">
-        <h2>Hiển thị</h2>
+        <label htmlFor="filter">
+          <i class="fa-solid fa-filter"></i>
+        </label>
+      </div>
+      <input type="checkbox" id="filter" />
+      <label htmlFor="filter" className="nar-overplay"></label>
+      <div className="boxfilter">
+        <label htmlFor="filter">
+          <i className="fa-solid fa-xmark"></i>
+        </label>
+        <Filter data={data} setData={setData} />
       </div>
       <div className="sort-right">
         <h2>Sắp xếp theo</h2>

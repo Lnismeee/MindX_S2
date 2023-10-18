@@ -11,7 +11,9 @@ const ProductList = () => {
     <div>
       <ProductListHeader />
       <div className="product_list">
-        <Filter data={data} setData={setData} />
+        <div className="filter-all">
+          <Filter data={data} setData={setData} />
+        </div>
         <div className="product_list_right">
           <Sort data={data} setData={setData} />
           <List data={data} setData={setData} />

@@ -8,11 +8,13 @@
   flex-direction: column;
   flex: 4;
 }
-.filter {
+
+.filter-all {
   flex: 1;
+  display: block;
 }
 @media only screen and (max-width: 1023px) {
-  .filter {
+  .filter-all {
     display: none;
   }
 }
