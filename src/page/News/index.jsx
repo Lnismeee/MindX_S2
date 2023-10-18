@@ -4,6 +4,7 @@ import HeaderNews from "./header/header";
 
 const News = () => {
   return (
+    
     <div>
       <HeaderNews></HeaderNews>
       <div className='page-container'>

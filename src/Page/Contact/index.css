@@ -21,19 +21,19 @@
 
 .container .info h2:before {
   background-image: url("src/assets/emoji.webp");
-  background-size: 30px 30px; /* Adjust the size as needed */
+  background-size: 30px 30px;
   background-repeat: no-repeat;
   background-position: left center;
   display: inline-block;
-  height: 30px; /* Adjust the height as needed */
-  width: 30px; /* Adjust the width as needed */
-  margin-right: 5px; /* Adjust the margin-right as needed */
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
   content: "";
   vertical-align: middle;
   margin-bottom: 15px;
 }
 
-.image {
+.image1 .image2 {
   flex-shrink: 0;
   padding-left: 20px;
 }
@@ -112,11 +112,17 @@
 }
 
 @media (max-width: 768px) {
+  .container-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .form-map-container {
     flex-direction: column;
   }
 
   .form-container {
+    width: 100%;
     order: 2;
   }
 
@@ -124,9 +130,15 @@
     order: 1;
     height: 300px;
   }
+
+  .contact-image {
+    max-width: 100%; /* Adjust the max-width as needed */
+    height: auto;
+  }
+
 }
 
 .contact-heading {
-  color: #f25e63; /* Replace "red" with your desired color */
+  color: #f25e63;
   margin-bottom: 10px;
-}
+} 
