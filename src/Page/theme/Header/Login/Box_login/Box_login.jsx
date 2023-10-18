@@ -104,7 +104,6 @@ const Box_login = () => {
                 value={gmail}
                 onChange={(e) => {
                   setGmail(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -117,7 +116,6 @@ const Box_login = () => {
                 value={mk}
                 onChange={(e) => {
                   setMK(e.target.value);
-                  console.log(mk);
                 }}
               />
             </div>
@@ -154,7 +152,6 @@ const Box_login = () => {
                 value={gmail}
                 onChange={(e) => {
                   setGmail(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -180,7 +177,6 @@ const Box_login = () => {
                 value={fullname}
                 onChange={(e) => {
                   setFullname(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -193,7 +189,6 @@ const Box_login = () => {
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -206,7 +201,6 @@ const Box_login = () => {
                 value={sdt}
                 onChange={(e) => {
                   setSdt(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -219,7 +213,6 @@ const Box_login = () => {
                 value={gmail}
                 onChange={(e) => {
                   setGmail(e.target.value);
-                  console.log(gmail);
                 }}
               />
             </div>
@@ -232,7 +225,6 @@ const Box_login = () => {
                 value={mk}
                 onChange={(e) => {
                   setMK(e.target.value);
-                  console.log(mk);
                 }}
               />
             </div>
