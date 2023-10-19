@@ -5,11 +5,12 @@ const List = ({ data, setData }) => {
   return (
     <div className="list">
       {data.map((item, index) => {
-        return (
-          <div className="card1">
-            <Card data={item} key={item.id} />
-          </div>
-        );
+        if (item.hide == true)
+          return (
+            <div className="card1">
+              <Card data={item} key={item.id} />
+            </div>
+          );
       })}
     </div>
   );

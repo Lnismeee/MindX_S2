@@ -8,7 +8,6 @@ const Login = () => {
   const cl = useContext(ContextCheckLogin);
   const [boxlogin, setBoxlogin] = useState(false);
   const [boxlogout, setBoxlogout] = useState(false);
-  console.log(usernow);
   const loginsucces = () => {
     setBoxlogin(false);
     cl.SetLogin();
