@@ -35,7 +35,7 @@
 .fa-filter:hover {
   color: aqua;
 }
-@media only screen and (min-width: 416) and (max-width: 1023px) {
+@media only screen and (min-width: 416px) and (max-width: 1023px) {
   .fa-filter {
     display: block;
   }
