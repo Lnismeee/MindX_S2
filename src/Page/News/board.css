@@ -379,3 +379,41 @@
 }
 
 /* ... remaining CSS rules ... */
+
+@media only screen and (max-width: 768px) {
+.grid-container {
+  display: inline;
+  width: 350px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-right: auto; /* Add margin-right auto */
+  margin-left: 0; /* Remove margin-left */
+  margin-bottom: 30px;
+  }
+
+  .medium-box {
+    max-width: 75%;
+  }
+
+  .grid-item {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 0; /* Removed margin-bottom for grid items */
+    margin-top: 20px;
+    width: 375px;
+    box-shadow: 0 0 0 0;
+    transition: linear 0.2s;
+  }
+  .new-container-image {
+    max-width: 75%; /* Adjust the size of the image as needed */
+    max-height: auto; /* Adjust the size of the image as needed */
+    object-fit: cover;
+  }
+}
